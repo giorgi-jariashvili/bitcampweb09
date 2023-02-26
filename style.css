@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Big+Shoulders+Display:wght@900&family=Combo&family=Lora:ital,wght@1,600&family=Outfit:wght@300&family=Poppins:wght@600&display=swap');
+
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Combo', cursive;
+font-family: 'Lora', serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Big+Shoulders+Display:wght@900&family=Combo&family=Lora:ital,wght@1,600&family=Outfit:wght@300&family=Poppins:wght@600&display=swap');
+
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Combo', cursive;
+font-family: 'Lora', serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+
+body{margin: 0px;}
+header{display: flex;justify-content: space-between;align-items: center;padding: 24px;width: 100%;}
+.hed1 div{max-width: 100px;}
+.hed1 div img{width: 100%;}
+.hed2 {max-width: 200px;width: 100%;}
+.hed2 nav ul{display: flex;justify-content: space-evenly;align-items: center;padding: 0px;}
+.hed2 nav ul li a{text-decoration: none;font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;color: #07043B;
+    font-family: 'Outfit', sans-serif;
+    }
+.box1 {display: flex;flex-direction: column;justify-content: space-evenly;align-items: center;}
+.box101{max-width: 800px;width: 100%;padding: 0px 35px;}
+.box101 img{width: 100%;}
+.box102{display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.box102 h1{font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    max-width: 350px;
+    width: 100%;}
+.box102 p{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #07043B;
+    max-width: 330px;
+    width: 100%;}
+.box102 div{display: flex;flex-direction: column;max-width: 330px;width: 100%;}
+.box102 div form input {width: 100%;height: 40px;padding: 12px 21px;border: none;border: 0.63px solid #07043B;}
+.box102 div button{width: 100%;height: 40px;background-color:  #2F65F8;box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;color: #FFFFFF;font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;border: none;
+    font-family: 'Poppins', sans-serif;margin-bottom: 90px;}
+
+.box2 .box201 .dekst{display: none;}
+.box201 .mob {max-width: 800px;width: 100%;}
+.box201 .mob img{width: 100%;}
+.box202 .box21{max-width: 800px;width: 100%;display: flex;justify-content: center;align-items: center;background-color: #F8F8FE;margin-bottom: 90px;}
+.box202 .box21 img{width: 90%;}
+.box22 {display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.box22 h2{font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #07043B;
+    max-width: 320px;
+    width: 100%;
+    margin: 0px;margin-bottom: 25px;}
+.box22 p{max-width: 370px;width: 100%;font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #615F7E;
+    font-family: 'Outfit', sans-serif;margin: 0px;margin-bottom: 17px;
+  }
+
+.box22 .see{border-bottom: 2px solid #3DA08F;width: 200px;padding-bottom: 7px;text-align: center;margin-top: 36px;margin-bottom: 40px;}
+.box22 .see button{border: none;background-color: #FFFFFF;color: #3DA08F;cursor: pointer;font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: inline-block;}
+.see button::after{content: url(poto09/icon-arrow.svg);display: inline-block;margin-left: 12px;line-height: 18px;}
+
+.box22 .card{max-width: 350px;width: 100%;background: #FFFFFF;
+    box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+    border-radius: 3.93258px;padding: 20px 13px 20px 25px;margin-bottom: 80px;}
+.card p{max-width: 300px;width: 100%;margin-bottom: 14px;}
+.card .card1{display: flex;margin-bottom: 20px;}
+.card1 img{max-width: 28px;width: 100%;height: 28px;border-radius: 50px;}
+.card1 div{height: 28px;margin-left: 10px;}
+.card1 div h4{margin: 0px;font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.45px;
+    color: #07043B;
+    }
+.card1 span{margin: 0px;font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.3px;
+    color: #07043B;}
+
+.box3{background-color: #575988;display: flex;flex-direction: column;align-items: center;padding-top: 55px;padding-bottom: 71px;}
+.box3 .box301{display: flex;flex-direction: column;align-items: center; max-width: 320px;width: 100%;}
+.box301 h3{font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-bottom: 16px;
+    font-family: 'Poppins', sans-serif; 
+    }
+.box301 p{font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-bottom: 25px;
+    }
+.box302{max-width: 300px;width: 100%;}
+.box302 input{width: 100%;height: 35px;padding-left: 15px;font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #C0C0C0;
+    }
+
+.box302 button{width: 100%;border: none;background: #2F65F8;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;height: 35px;font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 12px;
+    color: #FFFFFF;
+    }
+.futt{background-color: #07043B;padding: 65px 40px;}
+.fut1{display: flex;flex-direction: column;}
+.fut1 img{max-width: 100px;width: 100%;margin-bottom: 35px;}
+span {color: #FFFFFF;margin-bottom: 20px;}
+span a{color: #FFFFFF;text-decoration: none;}
